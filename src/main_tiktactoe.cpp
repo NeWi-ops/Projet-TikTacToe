@@ -1,5 +1,6 @@
 #include <iostream>
-#include "GameBoard.h"
+
+#include "TwoPlayer.h"
 
 int main() {
    
@@ -9,7 +10,13 @@ int main() {
     std::cout << "Plateau de jeu initial :\n";
     draw_game_board(game_board);
 
-   
+   std::cout << "Bienvenue au jeu du Tic-Tac-Toe !\n";
+   std::cout << "Mode de jeu : Deux joueurs\n";
+
+    // Lancer le mode deux joueurs
+    two_player_mode();
+
+    return 0;
 
     
 
