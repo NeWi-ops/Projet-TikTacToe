@@ -49,7 +49,7 @@ void two_player_mode() {
     std::cout << "Création du joueur 1 :\n";
     Player player1 = create_player();
 
-    std::cout << "\nCréation du joueur 2 :\n";
+    std::cout << "Création du joueur 2 :\n";
     Player player2 = create_player();
 
     // Boucle principale du jeu
