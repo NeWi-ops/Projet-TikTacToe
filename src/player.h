@@ -1,5 +1,5 @@
 #include<iostream>
-
+#pragma once
 
 struct Player 
 {

@@ -2,4 +2,7 @@
 #pragma once
 
 
-void two_player_mode();
+
+
+
+void single_player_mode();
