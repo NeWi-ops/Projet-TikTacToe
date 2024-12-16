@@ -15,6 +15,12 @@ void two_player_mode() {
 
     std::cout << "Création du joueur 2 :\n";
     Player player2 = create_player();
+    if (player2.symbol == player1.symbol)
+    {
+        std::cout<<"Vous ne pouvez pas choisir le même symbole que " <<player1.name<< ", veuillez en choisir un autre."<<std::endl;
+        std::cout<<"Entrez un symbole different de "<<player1.symbol<<std::endl;
+        std::cin>>player2.symbol;
+    }
 
     // Boucle principale du jeu
     Player current_player = player1;
