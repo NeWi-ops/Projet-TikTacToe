@@ -13,7 +13,8 @@ bool check_winner(const char board[BOARD_SIZE], char symbol)
     }
 
 
-    for (int i = 0; i < 3; ++i) {
+    for (int i = 0; i < 3; ++i) 
+    {
         if (board[i] == symbol && board[i + 3] == symbol && board[i + 6] == symbol) 
         {
             return true;
