@@ -1,4 +1,4 @@
-# Projet-TikTacToe Iwen Martin Rapport
+# Projet-TikTacToe Iwen Rapport
 
 ## Execution du programme :
 
